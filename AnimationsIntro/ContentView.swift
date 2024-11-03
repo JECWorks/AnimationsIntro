@@ -16,10 +16,10 @@ struct ContentView: View {
                 animationAmount += 360
             }        }
         .padding(50)
-        .background(.red)
+        .background(.green)
         .foregroundStyle(.white)
         .clipShape(.circle)
-        .rotation3DEffect(.degrees(animationAmount), axis: (x: 0, y: 1, z: 0))
+        .rotation3DEffect(.degrees(animationAmount), axis: (x: 1, y: 0, z: 0))
     }
         
 }
